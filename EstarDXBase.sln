@@ -1,0 +1,115 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A3E79D94-05B1-4E90-8F86-78439CC878C8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{9CE30E9B-06C4-4C59-ACE2-3999A875691B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nupkg", "nupkg", "{283DCF58-03C7-463E-B817-C08DBB6A9C41}"
+	ProjectSection(SolutionItems) = preProject
+		nupkg\pack-EstarDxBase.bat = nupkg\pack-EstarDxBase.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DX-Infrastructure（基础设施层）", "DX-Infrastructure（基础设施层）", "{0B3A784F-3C36-4F67-9F58-F992A4BA9351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstarDXBase.Infrastructure.Tool", "EstarDXBase.Infrastructure.Tool\EstarDXBase.Infrastructure.Tool.csproj", "{A9A5CDD3-CA9A-4952-A3DE-0F107BBB826A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstarDXBase.Infrastructure.EFData", "EstarDXBase.Infrastructure.EFData\EstarDXBase.Infrastructure.EFData.csproj", "{E29F850E-3069-40FC-99AE-9720876B0187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstarDXBase.Infrastructure.Common", "EstarDXBase.Infrastructure.Common\EstarDXBase.Infrastructure.Common.csproj", "{6A61DE4F-5738-4CAD-84BF-49923D92862A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DX-DoMain(领域设计层)", "DX-DoMain(领域设计层)", "{F141A475-5EFC-4DC6-B400-2974B684259E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstarDXBase.Domain.Models", "EstarDXBase.Domain.Models\EstarDXBase.Domain.Models.csproj", "{C4722979-9DB4-4C08-9C66-586F8D085D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstarDXBase.Domain.Data", "EstarDXBase.Domain.Data\EstarDXBase.Domain.Data.csproj", "{625B6CD5-9183-4F5D-90CB-E7C94250F890}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DX-Core(业务核心层)", "DX-Core(业务核心层)", "{4D9963EC-EBA9-4431-904F-72B01ACB32CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstarDXBase.Core.Repository", "EstarDXBase.Core.Repository\EstarDXBase.Core.Repository.csproj", "{C91E908E-C4D4-42F5-940F-EFF112D36A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstarDXBase.Core.Service", "EstarDXBase.Core.Service\EstarDXBase.Core.Service.csproj", "{41B3B949-01C6-4EA2-8423-C7EA2F9ED576}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DX-Presentation(展示层)", "DX-Presentation(展示层)", "{FFD2E14C-EC3D-4AA1-9CC8-732D5EE36837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstarDXBase.Web.ApiModels", "EstarDXBase.Web.ApiModels\EstarDXBase.Web.ApiModels.csproj", "{AFEF2580-9C2B-4099-BB4B-FD987A3B4DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstarDXBase.Web.Common", "EstarDXBase.Web.Common\EstarDXBase.Web.Common.csproj", "{9A72F17F-3008-458F-A764-59C986639B8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstarDXBase.Web.Models", "EstarDXBase.Web.Models\EstarDXBase.Web.Models.csproj", "{271E69F4-27DA-40F7-856B-92EB1536C3C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstarDXBase.Web.WebUI", "EstarDXBase.Web.WebUI\EstarDXBase.Web.WebUI.csproj", "{55902C4F-CC30-49EF-8A2A-6B47FAF74579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9A5CDD3-CA9A-4952-A3DE-0F107BBB826A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A5CDD3-CA9A-4952-A3DE-0F107BBB826A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A5CDD3-CA9A-4952-A3DE-0F107BBB826A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A5CDD3-CA9A-4952-A3DE-0F107BBB826A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E29F850E-3069-40FC-99AE-9720876B0187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29F850E-3069-40FC-99AE-9720876B0187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29F850E-3069-40FC-99AE-9720876B0187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29F850E-3069-40FC-99AE-9720876B0187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A61DE4F-5738-4CAD-84BF-49923D92862A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A61DE4F-5738-4CAD-84BF-49923D92862A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A61DE4F-5738-4CAD-84BF-49923D92862A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A61DE4F-5738-4CAD-84BF-49923D92862A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4722979-9DB4-4C08-9C66-586F8D085D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4722979-9DB4-4C08-9C66-586F8D085D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4722979-9DB4-4C08-9C66-586F8D085D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4722979-9DB4-4C08-9C66-586F8D085D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625B6CD5-9183-4F5D-90CB-E7C94250F890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625B6CD5-9183-4F5D-90CB-E7C94250F890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625B6CD5-9183-4F5D-90CB-E7C94250F890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625B6CD5-9183-4F5D-90CB-E7C94250F890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C91E908E-C4D4-42F5-940F-EFF112D36A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91E908E-C4D4-42F5-940F-EFF112D36A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91E908E-C4D4-42F5-940F-EFF112D36A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91E908E-C4D4-42F5-940F-EFF112D36A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B3B949-01C6-4EA2-8423-C7EA2F9ED576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B3B949-01C6-4EA2-8423-C7EA2F9ED576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B3B949-01C6-4EA2-8423-C7EA2F9ED576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B3B949-01C6-4EA2-8423-C7EA2F9ED576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFEF2580-9C2B-4099-BB4B-FD987A3B4DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEF2580-9C2B-4099-BB4B-FD987A3B4DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEF2580-9C2B-4099-BB4B-FD987A3B4DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEF2580-9C2B-4099-BB4B-FD987A3B4DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A72F17F-3008-458F-A764-59C986639B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A72F17F-3008-458F-A764-59C986639B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A72F17F-3008-458F-A764-59C986639B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A72F17F-3008-458F-A764-59C986639B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271E69F4-27DA-40F7-856B-92EB1536C3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271E69F4-27DA-40F7-856B-92EB1536C3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271E69F4-27DA-40F7-856B-92EB1536C3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271E69F4-27DA-40F7-856B-92EB1536C3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55902C4F-CC30-49EF-8A2A-6B47FAF74579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55902C4F-CC30-49EF-8A2A-6B47FAF74579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55902C4F-CC30-49EF-8A2A-6B47FAF74579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55902C4F-CC30-49EF-8A2A-6B47FAF74579}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9A5CDD3-CA9A-4952-A3DE-0F107BBB826A} = {0B3A784F-3C36-4F67-9F58-F992A4BA9351}
+		{E29F850E-3069-40FC-99AE-9720876B0187} = {0B3A784F-3C36-4F67-9F58-F992A4BA9351}
+		{6A61DE4F-5738-4CAD-84BF-49923D92862A} = {0B3A784F-3C36-4F67-9F58-F992A4BA9351}
+		{C4722979-9DB4-4C08-9C66-586F8D085D61} = {F141A475-5EFC-4DC6-B400-2974B684259E}
+		{625B6CD5-9183-4F5D-90CB-E7C94250F890} = {F141A475-5EFC-4DC6-B400-2974B684259E}
+		{C91E908E-C4D4-42F5-940F-EFF112D36A8C} = {4D9963EC-EBA9-4431-904F-72B01ACB32CA}
+		{41B3B949-01C6-4EA2-8423-C7EA2F9ED576} = {4D9963EC-EBA9-4431-904F-72B01ACB32CA}
+		{AFEF2580-9C2B-4099-BB4B-FD987A3B4DC3} = {FFD2E14C-EC3D-4AA1-9CC8-732D5EE36837}
+		{9A72F17F-3008-458F-A764-59C986639B8E} = {FFD2E14C-EC3D-4AA1-9CC8-732D5EE36837}
+		{271E69F4-27DA-40F7-856B-92EB1536C3C0} = {FFD2E14C-EC3D-4AA1-9CC8-732D5EE36837}
+		{55902C4F-CC30-49EF-8A2A-6B47FAF74579} = {FFD2E14C-EC3D-4AA1-9CC8-732D5EE36837}
+	EndGlobalSection
+EndGlobal

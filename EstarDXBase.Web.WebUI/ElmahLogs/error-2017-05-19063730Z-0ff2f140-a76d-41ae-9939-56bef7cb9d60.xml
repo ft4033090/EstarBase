@@ -1,0 +1,257 @@
+﻿<error errorId="0ff2f140-a76d-41ae-9939-56bef7cb9d60" application="/LM/W3SVC/46/ROOT" host="EST-PC-22" type="System.ComponentModel.Composition.CompositionException" message="撰写生成了一个撰写错误，其根本原因有 1 点，如以下所列。 有关详细信息，请查看 CompositionException.Errors 属性。&#xD;&#xA;&#xD;&#xA;1) 未将对象引用设置到对象的实例。&#xD;&#xA;&#xD;&#xA;结果: 尝试创建类型“EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController”的实例时发生异常。&#xD;&#xA;&#xD;&#xA;结果: 无法激活部件“EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController”。&#xD;&#xA;元素: EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController --&gt;  EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController --&gt;  DirectoryCatalog (Path=&quot;F:\李军项目\EstarDXBase\EstarDXBase.Web.WebUI\bin&quot;)&#xD;&#xA;&#xD;&#xA;结果: 无法从部件“EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController”获取导出“EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController (ContractName=&quot;EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController&quot;)”。&#xD;&#xA;元素: EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController (ContractName=&quot;EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController&quot;) --&gt;  EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController --&gt;  DirectoryCatalog (Path=&quot;F:\李军项目\EstarDXBase\EstarDXBase.Web.WebUI\bin&quot;)&#xD;&#xA;" source="System.ComponentModel.Composition" detail="System.ComponentModel.Composition.CompositionException: 撰写生成了一个撰写错误，其根本原因有 1 点，如以下所列。 有关详细信息，请查看 CompositionException.Errors 属性。&#xD;&#xA;&#xD;&#xA;1) 未将对象引用设置到对象的实例。&#xD;&#xA;&#xD;&#xA;结果: 尝试创建类型“EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController”的实例时发生异常。&#xD;&#xA;&#xD;&#xA;结果: 无法激活部件“EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController”。&#xD;&#xA;元素: EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController --&gt;  EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController --&gt;  DirectoryCatalog (Path=&quot;F:\李军项目\EstarDXBase\EstarDXBase.Web.WebUI\bin&quot;)&#xD;&#xA;&#xD;&#xA;结果: 无法从部件“EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController”获取导出“EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController (ContractName=&quot;EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController&quot;)”。&#xD;&#xA;元素: EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController (ContractName=&quot;EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController&quot;) --&gt;  EstarDXBase.Web.WebUI.Areas.Authen.Controllers.UserController --&gt;  DirectoryCatalog (Path=&quot;F:\李军项目\EstarDXBase\EstarDXBase.Web.WebUI\bin&quot;)&#xD;&#xA;&#xD;&#xA;   在 System.ComponentModel.Composition.Hosting.CompositionServices.GetExportedValueFromComposedPart(ImportEngine engine, ComposablePart part, ExportDefinition definition)&#xD;&#xA;   在 System.ComponentModel.Composition.Hosting.CatalogExportProvider.GetExportedValue(CatalogPart part, ExportDefinition export, Boolean isSharedPart)&#xD;&#xA;   在 System.ComponentModel.Composition.Hosting.CatalogExportProvider.CatalogExport.GetExportedValueCore()&#xD;&#xA;   在 System.ComponentModel.Composition.Primitives.Export.get_Value()&#xD;&#xA;   在 System.ComponentModel.Composition.ExportServices.GetCastedExportedValue[T](Export export)&#xD;&#xA;   在 System.ComponentModel.Composition.ExportServices.&lt;&gt;c__DisplayClass13_0`2.&lt;CreateSemiStronglyTypedLazy&gt;b__0()&#xD;&#xA;   在 System.Lazy`1.CreateValue()&#xD;&#xA;   在 System.Lazy`1.LazyInitValue()&#xD;&#xA;   在 System.Lazy`1.get_Value()&#xD;&#xA;   在 EstarDXBase.Web.WebUI.MefControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType) 位置 f:\李军项目\EstarDXBase\EstarDXBase.Web.WebUI\App_Start\MefConfig.cs:行号 114&#xD;&#xA;   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController&amp; controller, IControllerFactory&amp; factory)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)&#xD;&#xA;   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" time="2017-05-19T06:37:30.9059510Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:application/json, text/javascript, */*; q=0.01&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3&#xD;&#xA;HTTP_COOKIE:loginType=; ASP.NET_SessionId=44mg00qcmlvr3j4yxbsmyz2m; __RequestVerificationToken_Lw__=4tk78QNZfzS1WHVVDrWRrS2F91r6xT6onSyv77uBoTtCuppcZEqZT89RHoC/dtZMF/pRXFfgg0piBuhSf9BArPTHtlKlucDjSR7WXFS0YzBkXufdiMoEXQU7Jsv9chcbNa5N+ywW563KAdetFoCS+kCEkDIe2w7sZmEl5uOV6HE=&#xD;&#xA;HTTP_HOST:localhost:49285&#xD;&#xA;HTTP_REFERER:http://localhost:49285/Authen/User&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0&#xD;&#xA;HTTP_X_REQUESTED_WITH:XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: application/json, text/javascript, */*; q=0.01&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3&#xD;&#xA;Cookie: loginType=; ASP.NET_SessionId=44mg00qcmlvr3j4yxbsmyz2m; __RequestVerificationToken_Lw__=4tk78QNZfzS1WHVVDrWRrS2F91r6xT6onSyv77uBoTtCuppcZEqZT89RHoC/dtZMF/pRXFfgg0piBuhSf9BArPTHtlKlucDjSR7WXFS0YzBkXufdiMoEXQU7Jsv9chcbNa5N+ywW563KAdetFoCS+kCEkDIe2w7sZmEl5uOV6HE=&#xD;&#xA;Host: localhost:49285&#xD;&#xA;Referer: http://localhost:49285/Authen/User&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0&#xD;&#xA;X-Requested-With: XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/46/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="F:\李军项目\EstarDXBase\EstarDXBase.Web.WebUI\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="46" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/46" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/Authen/User/List" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="F:\李军项目\EstarDXBase\EstarDXBase.Web.WebUI\Authen\User\List" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="rand=0.49586877296547693&amp;sEcho=1&amp;iColumns=9&amp;sColumns=SortId%2CLoginName%2CEmail%2CFullName%2CPhone%2CEnabled%2CRegisterTime%2CLastLoginTime%2CId&amp;iDisplayStart=0&amp;iDisplayLength=10&amp;mDataProp_0=0&amp;mDataProp_1=1&amp;mDataProp_2=2&amp;mDataProp_3=3&amp;mDataProp_4=4&amp;mDataProp_5=5&amp;mDataProp_6=6&amp;mDataProp_7=7&amp;mDataProp_8=8&amp;iSortCol_0=0&amp;sSortDir_0=asc&amp;iSortingCols=1&amp;bSortable_0=false&amp;bSortable_1=true&amp;bSortable_2=true&amp;bSortable_3=false&amp;bSortable_4=false&amp;bSortable_5=true&amp;bSortable_6=true&amp;bSortable_7=true&amp;bSortable_8=false&amp;_=1495175850885" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="43477" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/Authen/User/List" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="49285" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/Authen/User/List" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="application/json, text/javascript, */*; q=0.01" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="loginType=; ASP.NET_SessionId=44mg00qcmlvr3j4yxbsmyz2m; __RequestVerificationToken_Lw__=4tk78QNZfzS1WHVVDrWRrS2F91r6xT6onSyv77uBoTtCuppcZEqZT89RHoC/dtZMF/pRXFfgg0piBuhSf9BArPTHtlKlucDjSR7WXFS0YzBkXufdiMoEXQU7Jsv9chcbNa5N+ywW563KAdetFoCS+kCEkDIe2w7sZmEl5uOV6HE=" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:49285" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:49285/Authen/User" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0" />
+    </item>
+    <item name="HTTP_X_REQUESTED_WITH">
+      <value string="XMLHttpRequest" />
+    </item>
+  </serverVariables>
+  <queryString>
+    <item name="rand">
+      <value string="0.49586877296547693" />
+    </item>
+    <item name="sEcho">
+      <value string="1" />
+    </item>
+    <item name="iColumns">
+      <value string="9" />
+    </item>
+    <item name="sColumns">
+      <value string="SortId,LoginName,Email,FullName,Phone,Enabled,RegisterTime,LastLoginTime,Id" />
+    </item>
+    <item name="iDisplayStart">
+      <value string="0" />
+    </item>
+    <item name="iDisplayLength">
+      <value string="10" />
+    </item>
+    <item name="mDataProp_0">
+      <value string="0" />
+    </item>
+    <item name="mDataProp_1">
+      <value string="1" />
+    </item>
+    <item name="mDataProp_2">
+      <value string="2" />
+    </item>
+    <item name="mDataProp_3">
+      <value string="3" />
+    </item>
+    <item name="mDataProp_4">
+      <value string="4" />
+    </item>
+    <item name="mDataProp_5">
+      <value string="5" />
+    </item>
+    <item name="mDataProp_6">
+      <value string="6" />
+    </item>
+    <item name="mDataProp_7">
+      <value string="7" />
+    </item>
+    <item name="mDataProp_8">
+      <value string="8" />
+    </item>
+    <item name="iSortCol_0">
+      <value string="0" />
+    </item>
+    <item name="sSortDir_0">
+      <value string="asc" />
+    </item>
+    <item name="iSortingCols">
+      <value string="1" />
+    </item>
+    <item name="bSortable_0">
+      <value string="false" />
+    </item>
+    <item name="bSortable_1">
+      <value string="true" />
+    </item>
+    <item name="bSortable_2">
+      <value string="true" />
+    </item>
+    <item name="bSortable_3">
+      <value string="false" />
+    </item>
+    <item name="bSortable_4">
+      <value string="false" />
+    </item>
+    <item name="bSortable_5">
+      <value string="true" />
+    </item>
+    <item name="bSortable_6">
+      <value string="true" />
+    </item>
+    <item name="bSortable_7">
+      <value string="true" />
+    </item>
+    <item name="bSortable_8">
+      <value string="false" />
+    </item>
+    <item name="_">
+      <value string="1495175850885" />
+    </item>
+  </queryString>
+  <cookies>
+    <item name="loginType">
+      <value string="" />
+    </item>
+    <item name="ASP.NET_SessionId">
+      <value string="44mg00qcmlvr3j4yxbsmyz2m" />
+    </item>
+    <item name="__RequestVerificationToken_Lw__">
+      <value string="4tk78QNZfzS1WHVVDrWRrS2F91r6xT6onSyv77uBoTtCuppcZEqZT89RHoC/dtZMF/pRXFfgg0piBuhSf9BArPTHtlKlucDjSR7WXFS0YzBkXufdiMoEXQU7Jsv9chcbNa5N+ywW563KAdetFoCS+kCEkDIe2w7sZmEl5uOV6HE=" />
+    </item>
+  </cookies>
+</error>
